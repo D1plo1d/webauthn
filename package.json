@@ -1,0 +1,21 @@
+{
+    "name": "root",
+    "version": "0.1.0",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wallix/webauthn.git"
+    },
+    "workspaces": [
+        "packages/*",
+        "example/*"
+    ],
+    "devDependencies": {
+        "lerna": "^3.14.1"
+    },
+    "resolutions": {
+        "https-proxy-agent": "^2.2.3",
+        "minimist": "^1.2.5",
+        "ecstatic": "^4.1.4"
+    }
+}
