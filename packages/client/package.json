@@ -11,8 +11,7 @@
   },
   "scripts": {
     "build": "webpack --mode=production",
-    "prepublish": "webpack --mode=production",
-    "preinstall": "npx npm-force-resolutions"
+    "prepublish": "webpack --mode=production"
   },
   "license": "Apache-2.0",
   "dependencies": {
